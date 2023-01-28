@@ -107,11 +107,12 @@
  */
 
 let total = 0;
-let totalNew = Number(prompt('Enter number'));
+let totalNew = prompt('Enter number');
+let modifiedTotalNew = Number(totalNew);
 do {
-  if (totalNew) {
+  if (modifiedTotalNew) {
     total += totalNew;
-    totalNew = Number(prompt('Enter number'));
+    modifiedTotalNew = Number(prompt('Enter number'));
   }
-} while (totalNew);
+} while (modifiedTotalNew);
 console.log(total);
