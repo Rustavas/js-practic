@@ -38,7 +38,6 @@
 
 // console.log(`${hours}:${mins}`);
 
-
 /**
  *?     При помощи цикла for сложите все четные числа от  min до max
  */
@@ -46,7 +45,6 @@
 // const max = 50;
 // const min = 0;
 // let summ = 0;
-
 
 // for (let i = min; i <= max; i +=1 ){
 
@@ -77,18 +75,44 @@
 *?      иначе выводить строку "Неверный пароль!"
  */
 
-const userLogin = prompt('Введите логин');
+// const userLogin = prompt('Введите логин');
 
-console.log(userLogin);
-if (userLogin === "Админ") {
-  const userPassword = prompt("Введите пароль");
-  if (userPassword === "Я главный") {
-    console.log("Здравствуйте");
-  } else {
-    console.log("Неверный пароль");
+// console.log(userLogin);
+// if (userLogin === "Админ") {
+//   const userPassword = prompt("Введите пароль");
+//   if (userPassword === "Я главный") {
+//     console.log("Здравствуйте");
+//   } else {
+//     console.log("Неверный пароль");
+//   }
+// } else if (!userLogin) {
+//   console.log("Отменено");
+// } else {
+//   console.log("Я вас не знаю");
+// }
+
+//=================================================
+/**
+ *? При загрузке страницы пользователю предлагается
+ *? в prompt ввести число. Ввод добавляется к значению
+ *? переменной total.
+ *? Операция ввода числа продолжается до тех пор,
+ *? пока пользователь не нажмет кнопку Cancel в prompt.
+ *? После того как пользователь прекратил ввод нажав на
+ *? кнопку Cancel, показать alert со строкой "Общая сумма 
+ введенных чисел равна [число]."
+ 
+ *! Делать проверку,что пользователь ввел именно число,
+ *! а не произвольный набор символов, не нужно.
+ */
+
+let total = 0;
+let totalNew = prompt('Enter number');
+let modifiedTotalNew = Number(totalNew);
+do {
+  if (modifiedTotalNew) {
+    total += totalNew;
+    modifiedTotalNew = Number(prompt('Enter number'));
   }
-} else if (!userLogin) {
-  console.log("Отменено");
-} else {
-  console.log("Я вас не знаю");
-}
+} while (modifiedTotalNew);
+console.log(total);
