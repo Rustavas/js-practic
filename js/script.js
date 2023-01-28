@@ -37,3 +37,24 @@
 // hours.padStart(2, 0);
 
 // console.log(`${hours}:${mins}`);
+
+
+/**
+ *?     При помощи цикла for сложите все четные числа от  min до max
+ */
+
+const max = 50;
+const min = 0;
+let summ = 0;
+
+
+for (let i = min; i <= max; i +=1 ){
+   
+    if ( i % 2 === 0 ){
+        summ += i;
+      
+    }
+    
+}
+console.log(summ);
+//  задача
