@@ -97,12 +97,12 @@
 //  }
 //  calculateTotal(122)
 // 19======================
-const fruits = ['apple', 'plum', 'pear', 'orange'];
+// const fruits = ['apple', 'plum', 'pear', 'orange'];
 
-for (let i = 0; i <= fruits.length-1; i = 1) { 
-  const fruit = fruit[i];
-  console.log(fruit);
-}
+// for (let i = 0; i <= fruits.length-1; i += 1) { 
+//   const fruit = fruits[i];
+//   console.log(fruit);
+// }
 // 1======================
 // 1======================
 // 1======================
