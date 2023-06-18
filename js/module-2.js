@@ -1,3 +1,4 @@
+"use strict";
 // 1======================
 // 1======================
 // 1======================
@@ -103,9 +104,92 @@
 //   const fruit = fruits[i];
 //   console.log(fruit);
 // }
-// 1======================
-// 1======================
-// 1======================
-// 1======================
-// 1======================
-// 1======================
+// 20======================
+// function calculateTotalPrice(order) {
+//   let total = 0;
+// for(let i = 0; i < order.length; i += 1){
+//   total += order[i];
+// }
+//   return total;
+// }
+// 21======================
+// function findLongestWord(string) {
+  // Change code below this line
+  // const stringArray = string.split(" ");
+  // let longestWord = stringArray[0];
+  // for(let i = 1; i < stringArray.length; i += 1){
+  //   if(longestWord.length < stringArray[i].length ){
+  //     longestWord = stringArray[i];
+  //   }
+  // }
+  // console.log(longestWord);
+  // Change code above this line
+// }
+// findLongestWord("Google do a roll")
+// 22======================
+// function createArrayOfNumbers(min, max) {
+//   const numbers = [];
+//   // Change code below this line
+// for(let i = min; i <= max; i += 1){
+//   numbers.push(i);
+// }
+//   // Change code above this line
+//   console.log(numbers);
+// }
+// createArrayOfNumbers(29, 34)
+// 23======================
+// function filterArray(numbers, value) {
+//   // Change code below this line
+//  const newArrayNumbers = [];
+// for(let i = 0; i < numbers.length; i += 1){
+//  if(numbers[i] > value){
+//   newArrayNumbers.push(numbers[i]) ;
+//  }
+// }
+
+// console.log(newArrayNumbers);
+//  // Change code above this line
+// }
+// filterArray([1, 2, 3, 4, 5], 3)
+// 24======================
+// 25======================
+// function getCommonElements(array1, array2) {
+//   // Change code below this line
+// const commonArr = [];
+//   for(const element of array1){
+//     if(array2.includes(element)){
+//       commonArr.push(element);
+//     }
+//   }
+// return commonArr;
+//  // Change code above this line
+// }
+// 26======================
+// 27======================
+// 28======================
+// 29======================
+// function getEvenNumbers(start, end) {
+//   // Change code below this line
+//  const arr = [];
+// for(let i = start; i <= end; i += 1){
+//  if(i % 2 === 0){
+//    arr.push(i);
+//  }
+// }
+// return arr;
+//    // Change code above this line
+//  }
+// 30======================
+// const start = 6;
+// const end = 27;
+// let number;
+
+// for (let i = start; i < end; i += 1) {
+//   if (i % 5 === 0) {
+//     number = i;
+//     break;
+//   }
+// }
+// 31======================
+// 32======================
+

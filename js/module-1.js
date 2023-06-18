@@ -1,3 +1,4 @@
+"use strict";
 // 1 =====================================
 // function checkForSpam(message) {
   // let result;
