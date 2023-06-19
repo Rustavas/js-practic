@@ -34,10 +34,15 @@
 } */
 
 
-body {
+/* body {
   margin: 16px;
 }
-
 select {
   padding: 4px;
+} */
+
+/* @import './module-6_repeta.css'; */
+
+.first-form {
+  margin-bottom: 30px;
 }
