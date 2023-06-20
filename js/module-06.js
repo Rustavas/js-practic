@@ -109,12 +109,19 @@ https://developer.mozilla.org/en-US/docs/Web/API/Node/contains
 Натиснувши кнопку "Подвоювати", збільшити значення
 у кожному елементі списку у 2 рази
 */
-const refs = {
-  double: document.getElementById('double'),
-  numbersValues: document.querySelectorAll('.listItem'),
-};
-refs.double.addEventListener('click', )
+// const refs = {
+//   double: document.getElementById('double'),
+//   numbersValues: document.querySelectorAll('.listItem'),
+// };
+// refs.double.addEventListener('click', onDouble);
 
+// function onDouble(event) {
+//   const arrayList = refs.numbersValues
+//   arrayList.forEach((value, index) => {
+//     arrayList[index].textContent = (Number(value.textContent) * 2)
+//     console.log(arrayList[index].textContent)
+//   });
+// };
 
 //TODO:==============================================
 /*
@@ -133,13 +140,89 @@ https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/pageY
 За натисканням на кнопку "Вивести результат" виводиться сума значення, а також статистика з
 інформацією про те, яка кнопка була натиснута скільки разів.
 */
+// const refs = {
+//   button1: document.querySelector('[data-number = "5"]'),
+//   button2: document.querySelector('[data-number = "2"]'),
+//   button3: document.querySelector('[data-number = "10"]'),
+//   button4: document.querySelector('[data-number = "50"]'),
+//   button5: document.querySelector('[data-number = "0"]'),
+//   button6: document.querySelector('[data-number = "20"]'),
+//   showResult: document.querySelector('#resultButton'),
+// };
+// let sum = 0;
+// let counterBtn1 = 0;
+// let counterBtn2 = 0;
+// let counterBtn3 = 0;
+// let counterBtn4 = 0;
+// let counterBtn5 = 0;
+// let counterBtn6 = 0;
+// refs.button1.addEventListener('click', onPlusBtn1);
+// function onPlusBtn1(event) {
+//   const value = Number(refs.button1.dataset.number);
+//   sum += value;
+//   counterBtn1 += 1;
+//   // console.log(sum);
+// };
+// refs.button2.addEventListener('click', onPlusBtn2);
+// function onPlusBtn2(event) {
+//   const value = Number(refs.button2.dataset.number);
+//   sum += value;
+//   counterBtn2 += 1;
+//   // console.log(sum);
+// };
+// refs.button3.addEventListener('click', onPlusBtn3);
+// function onPlusBtn3(event) {
+//   const value = Number(refs.button3.dataset.number);
+//   sum += value;
+//   counterBtn3 += 1;
+//   // console.log(sum);
+// };
+// refs.button4.addEventListener('click', onPlusBtn4);
+// function onPlusBtn4(event) {
+//   const value = Number(refs.button4.dataset.number);
+//   sum += value;
+//   counterBtn4 += 1;
+//   // console.log(sum);
+// };
+// refs.button5.addEventListener('click', onPlusBtn5);
+// function onPlusBtn5(event) {
+//   const value = Number(refs.button5.dataset.number);
+//   sum += value;
+//   counterBtn5 += 1;
+//   // console.log(sum);
+// };
+// refs.button6.addEventListener('click', onPlusBtn6);
+// function onPlusBtn6(event) {
+//   const value = Number(refs.button6.dataset.number);
+//   sum += value;
+//   counterBtn6 += 1;
+//   // console.log(sum);
+// };
+// refs.showResult.addEventListener('click', onShowResult);
+// function onShowResult(event) {
+//   console.log("sum ->", sum);
+//   console.log("button1 pressed ->", counterBtn1);
+//   console.log("button2 pressed ->", counterBtn2);
+//   console.log("button3 pressed ->", counterBtn3);
+//   console.log("button4 pressed ->", counterBtn4);
+//   console.log("button5 pressed ->", counterBtn5);
+//   console.log("button6 pressed ->", counterBtn6);
+// };
 
 //TODO:==============================================
 /*
 Завдання 9
 Видалити зі списку елементи, які позначені.
 */
-
+// const refs = {
+//   checkbox1: document.getElementById('checkbox1'),
+//   checkbox2: document.getElementById('checkbox2'),
+//   checkbox3: document.getElementById('checkbox3'),
+//   checkbox4: document.getElementById('checkbox4'),
+//   checkbox5: document.getElementById('checkbox5'),
+//   checkbox6: document.getElementById('checkbox6'),
+//   checkbox7: document.getElementById('checkbox7'),
+// };
 //TODO:==============================================
 /*
 Завдання 10
