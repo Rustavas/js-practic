@@ -214,15 +214,24 @@ https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/pageY
 Завдання 9
 Видалити зі списку елементи, які позначені.
 */
-// const refs = {
-//   checkbox1: document.getElementById('checkbox1'),
-//   checkbox2: document.getElementById('checkbox2'),
-//   checkbox3: document.getElementById('checkbox3'),
-//   checkbox4: document.getElementById('checkbox4'),
-//   checkbox5: document.getElementById('checkbox5'),
-//   checkbox6: document.getElementById('checkbox6'),
-//   checkbox7: document.getElementById('checkbox7'),
-// };
+const refs = {
+  checkbox1: document.getElementById('checkbox1'),
+  checkbox2: document.getElementById('checkbox2'),
+  checkbox3: document.getElementById('checkbox3'),
+  checkbox4: document.getElementById('checkbox4'),
+  checkbox5: document.getElementById('checkbox5'),
+  checkbox6: document.getElementById('checkbox6'),
+  checkbox7: document.getElementById('checkbox7'),
+};
+refs.checkbox1.addEventListener
+
+
+
+
+
+
+
+
 //TODO:==============================================
 /*
 Завдання 10
